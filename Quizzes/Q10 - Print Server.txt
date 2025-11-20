@@ -1,0 +1,39 @@
+Question 1
+Q: The Windows Server 2012 R2 default installation configuration makes available all printer sharing and management capabilities discussed in the previous sections. For administrators involved with enterprise network printing, installing the Print and Document Services role on the computer provides additional tools that are particularly useful.
+A: The Print and Document Services Role
+
+Question 2
+Q: A language understood by the printer. PCLs can be standardized, like the PostScript language, or they can be proprietary languages developed by the print device manufacturer.
+A: Printer Control Language (PCL)
+
+Question 3
+Q: Multiple printers connected to the same print device to allow certain users' print jobs to print before others
+A: Setting printer priorities
+
+Question 4
+Q: Users examining the print queue see only their own jobs, not the jobs of other users. Users have no way of knowing what other jobs have been sent to the print device, or how long it will be until the print device completes their jobs. Administrators have no way of centrally managing the print queue, because each client has its own print queue. Administrators cannot implement advanced printing features, such as printer pools or remote administration. Error messages appear only on the computer that originated the job the print device is currently processing. All print job processing is performed by the client computer, rather than being partially offloaded to an external print server.
+A: Disadvantages to Network-Attached Printing
+
+Question 5
+Q: Remove-PrintJob, Restart-PrintJob, Suspend-PrintJob, Resume-PrintJob
+A: To manage queued documents with Windows PowerShell, you use cmdlets such as the following
+
+Question 6
+Q: The other, far more popular, option for network-attached printing is to designate one computer as a print server and use it to service all print clients on the network. To do this, you install a printer on one computer, the print server, and configure it to access the print device directly through a TCP port. Then, you share the printer, just as you would a locally attached print device, and configure the clients to access the print share
+A: Network-Attached Printer Sharing
+
+Question 7
+Q: A computer (or standalone device) that receives print jobs from clients and sends them to print devices that are either locally attached or connected to the network
+A: Print server
+
+Question 8
+Q: One printer connected to multiple print devices to increase throughput and provide fault tolerance.
+A: Creating a printer pool
+
+Question 9
+Q: To install a printer: USB: Upon connection and power up, a driver will automatically be installed, unless Windows does not have a driver. Network-attached printers: An installation program supplied with the device will locate, install, and configure
+A: Sharing a Printer A printer can be shared during the installation or any time after
+
+Question 10
+Q: Set-Printer -Name "HP LaserJet" -Shared $true -ShareName "HP LaserJet"
+A: To share a printer with Windows PowerShell
