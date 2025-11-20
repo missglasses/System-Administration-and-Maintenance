@@ -1,0 +1,40 @@
+Question 1
+Q: A DHCP-enabled client PC has just booted. During which two steps will the client PC use broadcast messages when communicating with a DHCP server?
+A: DHCPREQUEST, DHCPDISCOVER
+
+Question 2
+Q: What kind of message is sent by a DHCPv4 client requesting an IP address?
+A: DHCPDISCOVER broadcast message
+
+Question 3
+Q: What is the destination IP address when an IPv4 host sends a DHCPDISCOVER message?
+A: 255.255.255.255
+
+Question 4
+Q: If more than one DHCP server is available on the local network, in which order will DHCP messages be sent between a host and a DHCP server?
+A: discover, offer, request, acknowledgment
+
+Question 5
+Q: What is the most likely scenario in which the WAN interface of a router would be configured as a DHCP client to be assigned a dynamic IP address from an ISP?
+A: It is a SOHO or home broadband router
+
+Question 6
+Q: Which is a DHCPv4 address allocation method that assigns IPv4 addresses for a limited lease period?
+A: dynamic allocation
+
+Question 7
+Q: A host on the 10.10.100.0/24 LAN is not being assigned an IPv4 address by an enterprise DHCP server with the address 10.10.200.10/24. What is the best way for the network engineer to resolve this problem?
+A: Issue the ip helper-address 10.10.200.10 command on the router interface that is the 10.10.100.0/24 gateway.
+
+Question 8
+Q: What is accomplished by the ip dhcp excluded-address 10.10.4.1 10.10.4.5 command?
+A: The DHCP server will not issue IPv4 addresses ranging from 10.10.4.1 to 10.10.4.5.
+
+Question 9
+Q: Which DHCP operation statement is true?
+A: When a DHCP client boots, it broadcasts a DHCPDISCOVER message to identify an available DHCP server on the network.
+
+Question 10
+Q: Which Windows command combination would enable a DHCPv4 client to reinstate its IPv4 configuration?
+A: Enter ipconfig /release and then ipconfig /renew
+
