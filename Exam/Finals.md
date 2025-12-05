@@ -171,7 +171,9 @@ A user aims to enhance the functionality of their Linux desktop by installing a 
 nswer: Yum
 
 ### 35
-After replacing a company workstation, the user complains that they can’t access the company’s internal website located at: https://intranet.mycompany.com:8080 All other internet connections are working as expected. Which configuration should the user adjust to allow connectivity?
+After replacing a company workstation, the user complains that they can’t access the company’s internal website located at: https://intranet.mycompany.com:8080 
+
+All other internet connections are working as expected. Which configuration should the user adjust to allow connectivity?
 
 Answer: Firewall settings
 
